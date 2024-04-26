@@ -9,7 +9,7 @@ Setup
 2. Open the launcher and navigate to the Library tab.
 3. If the Unreal Engine version |Engine Version| is not installed, add the version using the button shown below:
 
-.. image:: add-engine-version.png
+.. image:: add_engine_version.png
    :scale: 60 %
    :alt: alternate text
    :align: center

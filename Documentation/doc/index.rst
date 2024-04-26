@@ -6,7 +6,7 @@ project-template
    :caption: Contents:
    :titlesonly:
 
-   DevelopmentEnvironmentSetupGuide/development_environment_setup-guide
+   DevelopmentEnvironmentSetupGuide/development_environment_setup_guide
    UserManual/user_manual
    ExternalAssets/external_assets
 
