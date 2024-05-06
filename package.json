@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/hsinclair6140/asset-factory/issues"
   },
+  "publishConfig": {
+    "@hsinclair6140:registry": "https://npm.pkg.github.com"
+  },
   "homepage": "https://github.com/hsinclair6140/asset-factory#readme"
 }

@@ -1,4 +1,4 @@
-# Asset Factory
+# Documentation
 
 ## Overview
 This directory is intended for documentation only and contains Sphinx code that can be edited, built, and published to a GitHub Pages website. 
@@ -16,14 +16,14 @@ The following section provides instructions on how to build the HTML locally. Th
 [Python 3.11-64 bit](https://www.python.org/downloads/windows/).
 
 ##### Python Package Dependencies
-To quickly setup the Python virtual environment, execute the Documents/doc_env_setup.bat file. This will create a Python virtual environment that can be used to build the docs. 
+To quickly setup the Python virtual environment, execute the doc_env_setup.bat file. This will create a Python virtual environment that can be used to build the docs. 
 
-Alternatively, to manually install the Python dependencies to an existing environment, run the following command from the Documents folder using the desired Python environment:
+Alternatively, to manually install the Python dependencies to an existing environment, run the following command using the desired Python environment:
 
-`pip install -r requirements.txt`
+`pip install -r doc_requirements.txt`
 
 ### Build
-To build the Sphinx code, run the following command in the Documentation folder of the project:
+To build the Sphinx code, run the following command in the root of the project:
 
 `sphinx-build doc _build`
 
