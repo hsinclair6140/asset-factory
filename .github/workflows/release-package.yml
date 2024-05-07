@@ -32,7 +32,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-          scope: "@my-organization"
+          scope: "@hsinclair6140"
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: npm ci
@@ -41,5 +41,5 @@ jobs:
       - name: npm publish
         working-directory: Source/AssetFactory/Content/AssetFactory/SFX/Ambient/Dark
         run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        # env:
+        #   NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
