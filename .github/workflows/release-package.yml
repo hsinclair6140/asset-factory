@@ -13,9 +13,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 16
-      - run: npm start --prefix Source/AssetFactory/Content/AssetFactory/SFX/Ambient/Dark
-      - run: npm ci
-      - run: npm test
+      - run: npm ci --prefix Source/AssetFactory/Content/AssetFactory/SFX/Ambient/Dark
+      - run: npm test --prefix Source/AssetFactory/Content/AssetFactory/SFX/Ambient/Dark
 
   publish-gpr:
     needs: build
@@ -29,8 +28,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-      - run: npm start --prefix Source/AssetFactory/Content/AssetFactory/SFX/Ambient/Dark
-      - run: npm ci
-      - run: npm publish
+      - run: npm ci --prefix Source/AssetFactory/Content/AssetFactory/SFX/Ambient/Dark
+      - run: npm publish --prefix Source/AssetFactory/Content/AssetFactory/SFX/Ambient/Dark
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
