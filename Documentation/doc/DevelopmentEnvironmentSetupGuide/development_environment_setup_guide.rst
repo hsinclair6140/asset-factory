@@ -17,11 +17,8 @@ _____________
    :alt: alternate text
    :align: center
 
-
-GitHub Packages Dependencies
-____________________________
-
-1. Install `Node JS for Windows <https://nodejs.org/en/download>`_. 
+Dependencies
+____________
 
 
 .. |Engine Version| replace:: 5.3.2

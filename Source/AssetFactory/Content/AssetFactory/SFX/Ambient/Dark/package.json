@@ -1,7 +1,7 @@
 {
-  "name": "@hsinclair6140/asset-factory",
+  "name": "@hsinclair/sfx-ambient-dark-hostile",
   "version": "1.0.0",
-  "description": "Unreal Engine Assets",
+  "description": "Unreal Engine SFX Ambient Dark Hostile",
   "main": "index.js",
   "scripts": {
     "test": "exit 0"
@@ -14,15 +14,15 @@
     "Unreal",
     "Engine",
     "UE5",
-    "Assets"
+    "SFX",
+    "Ambient",
+    "Dark",
+    "Hostile"
   ],
   "author": "Heath Sinclair",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hsinclair6140/asset-factory/issues"
-  },
-  "publishConfig": {
-    "@hsinclair6140:registry": "https://npm.pkg.github.com"
   },
   "homepage": "https://github.com/hsinclair6140/asset-factory#readme"
 }
