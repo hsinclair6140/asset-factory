@@ -9,6 +9,7 @@ project-template
    DevelopmentEnvironmentSetupGuide/development_environment_setup_guide
    UserManual/user_manual
    ExternalAssets/external_assets
+   NexusRepository/nexus_repository
 
 
 Indices and tables
